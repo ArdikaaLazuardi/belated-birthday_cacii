@@ -30,7 +30,7 @@ window.CONFIG = {
     { src: "gallery/1.jpg", caption: "a day i didn't know i'd remember this much.",         date: "02 . 03 . 2024" },
     { src: "gallery/2.jpg", caption: "ordinary moments, extraordinary in retrospect.",      date: "12 . 03 . 2024" },
     { src: "gallery/3.jpg", caption: "somewhere between the laughter and the silence.",     date: "10 . 12 . 2024" },
-    { src: "gallery/4.jpg", caption: "the little things that mean the most.", date: "01 . 06 . 2024" },
+    { src: "gallery/4.jpg", caption: "the little things that mean the most.", date: "01 . 06 . 2025" },
     { src: "gallery/5.jpg", caption: "grateful for days like this.",                    date: "21 . 06 . 2025" },
     { src: "gallery/6.jpg", caption: "saving this precious moment right here.",         date: "01 . 06 . 2025" },
     { src: "gallery/7.jpg", caption: "another favorite memory added.", date: "14 . 02 . 2026" },
