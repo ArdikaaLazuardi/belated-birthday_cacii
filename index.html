@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>happy belated birthday, cacii.</title>
+<meta name="theme-color" content="#171717">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;700&family=DM+Mono:wght@300;400&family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;1,6..72,300;1,6..72,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="locked">
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" id="progress" aria-hidden="true"></div>
+
+<!-- COVER: "before you open this" -->
+<header class="cover" id="cover">
+  <div class="art" aria-hidden="true">
+    <div class="bgphoto" id="coverPhoto"></div>
+    <div class="beam"></div><div class="beam b2"></div>
+    <svg class="figures" viewBox="0 0 400 600" preserveAspectRatio="xMidYMax slice">
+      <defs><filter id="s1"><feGaussianBlur stdDeviation="9"/></filter><filter id="s2"><feGaussianBlur stdDeviation="16"/></filter></defs>
+      <g filter="url(#s2)" fill="#0a0a0a" opacity=".85"><circle cx="255" cy="250" r="26"/><path d="M215 285q40-14 78 6l22 230h-124z"/><path d="M290 296l36-70 8 8-30 78z"/></g>
+      <g filter="url(#s1)" fill="#050505" opacity=".95"><circle cx="130" cy="285" r="22"/><path d="M96 316q34-12 64 0l8 112-14 150h-26l-6-120-14 120h-26l14-150z"/><path d="M98 322L56 232l10-6 52 82z"/></g>
+    </svg>
+  </div>
+  <div class="ctop fade d1">
+    <span class="mono">a little something, a little late.</span>
+    <span class="mono" id="parts">a letter in 9 parts</span>
+  </div>
+  <div class="cmid">
+    <h1 class="fade d2">happy<br>belated<br>birthday, caccii.</h1>
+    <p class="sub fade d3">untuk seseorang yang masih kuharapkan dalam diam.</p>
+    <time class="mono fade d3" id="bday"></time>
+  </div>
+  <div class="cbot fade d4">
+    <p class="serif-note">there are things i never really learned how to say.</p>
+    <div class="row">
+      <button class="btn" id="openBtn" type="button">open the letter ↗</button>
+      <button class="btn ghost" id="blockedBtn" type="button" hidden>play our soundtrack</button>
+    </div>
+  </div>
+</header>
+
+<!-- NAV: track list -->
+<button class="tbtn mono" id="tracksBtn" type="button" aria-expanded="false" aria-controls="tracks">tracks</button>
+<aside class="tracks" id="tracks" aria-label="chapters"><ol id="trackList"></ol></aside>
+<button class="mini mono" id="mini" type="button" aria-label="toggle music"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span><span id="miniText">music</span></button>
+
+<main class="book" id="book" aria-hidden="true"></main>
+
+<dialog class="lightbox" id="lightbox" aria-label="photo">
+  <button class="mono lbclose" id="lbClose" type="button">close ×</button>
+  <div class="lbimg" id="lbImg"></div>
+  <p class="lbcap" id="lbCap"></p><p class="mono lbdate" id="lbDate"></p>
+</dialog>
+
+<script src="js/config.js"></script>
+<script src="js/content.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
