@@ -27,13 +27,13 @@ window.CONFIG = {
 
   // chapter 03 gallery. 6–8 slots. empty src = neutral placeholder.
   gallery: [
-    { src: "gallery/1.jpg", caption: "a day i didn't know i'd remember this much.",         date: "" },
-    { src: "gallery/2.jpg", caption: "ordinary moments, extraordinary in retrospect.",      date: "" },
-    { src: "gallery/3.jpg", caption: "somewhere between the laughter and the silence.",     date: "" },
-    { src: "gallery/4.jpg", caption: "the little things that mean the most.", date: "" },
-    { src: "gallery/5.jpg", caption: "grateful for days like this.",                    date: "" },
-    { src: "gallery/6.jpg", caption: "saving this precious moment right here.",         date: "" },
-    { src: "gallery/7.jpg", caption: "another favorite memory added.", date: "01 . 06 . 2025" },
-    { src: "gallery/8.jpg", caption: "just pure happiness, no words needed.",           date: "" },
+    { src: "gallery/1.jpg", caption: "a day i didn't know i'd remember this much.",         date: "02 . 03 . 2024" },
+    { src: "gallery/2.jpg", caption: "ordinary moments, extraordinary in retrospect.",      date: "12 . 03 . 2024" },
+    { src: "gallery/3.jpg", caption: "somewhere between the laughter and the silence.",     date: "10 . 12 . 2024" },
+    { src: "gallery/4.jpg", caption: "the little things that mean the most.", date: "01 . 06 . 2024" },
+    { src: "gallery/5.jpg", caption: "grateful for days like this.",                    date: "21 . 06 . 2025" },
+    { src: "gallery/6.jpg", caption: "saving this precious moment right here.",         date: "01 . 06 . 2025" },
+    { src: "gallery/7.jpg", caption: "another favorite memory added.", date: "14 . 02 . 2026" },
+    { src: "gallery/8.jpg", caption: "just pure happiness, no words needed.",           date: "28 . 02 . 2024" },
   ]
 };
